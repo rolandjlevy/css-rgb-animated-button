@@ -1,3 +1,9 @@
+:root {
+  --btn-colour-1: lime;
+  --btn-colour-2: red;
+  --btn-colour-3: blue;
+}
+
 body {
   padding: 30px;
   font-family: 'Cabin', Arial, Helvetica, sans-serif;
@@ -33,7 +39,8 @@ body {
   opacity: 1;
   mix-blend-mode: difference;
   pointer-events: none;
-  transition: all 0.2s ease;
+  transition: all 200ms ease;
+  /* filter: blur(3px); */
 }
 
 .layers > a.btn:nth-child(1) {
@@ -48,25 +55,28 @@ body {
 }
 
 .layers > div:nth-child(2) {
-  background: yellow;
-  border: 4px solid yellow;
-  color: yellow;
+  background: var(--btn-colour-1);
+  border: 4px solid var(--btn-colour-1);
+  color: var(--btn-colour-1);
   transform: translate(-5px, 5px);
+  transition-delay: 25ms;
   z-index: -1;
 }
 
 .layers > div:nth-child(3) {
-  background: #ff2600;
-  border: 4px solid #ff2600;
-  color: #ff2600;
+  background: var(--btn-colour-2);
+  border: 4px solid var(--btn-colour-2);
+  color: var(--btn-colour-2);
   transform: translate(-10px, 10px);
+  transition-delay: 50ms;
   z-index: -2;
 }
 
 .layers > div:nth-child(4) {
-  background: blue;
-  border: 4px solid blue;
-  color: blue;
+  background: var(--btn-colour-3);
+  border: 4px solid var(--btn-colour-3);
+  color: var(--btn-colour-3);
   transform: translate(-15px, 15px);
+  transition-delay: 75ms;
   z-index: -3;
 }
