@@ -9,3 +9,4 @@
 - https://lynnandtonic.com/
 - https://whimsical.club/
 - https://campnab.com/
+- https://monokai.nl/
