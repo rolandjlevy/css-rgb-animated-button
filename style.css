@@ -10,9 +10,14 @@ body {
   background: black;
 }
 
+@font-face {
+  font-family: blrrpixs;
+  src: url(blrrpixs016.ttf);
+}
+
 .btn, .layers > div {
-  border-radius: 20px;
-  padding: 6px 12px;
+  border-radius: 10px;
+  padding: 5px 10px;
   display: block;
 }
 
@@ -31,7 +36,8 @@ body {
 
 .layers > * {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: 'blrrpixs', 'VT323', monospace;
 }
 
 .layers > div {
