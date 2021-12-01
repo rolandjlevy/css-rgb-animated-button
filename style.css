@@ -74,7 +74,7 @@ body {
   border: 4px solid var(--btn-colour-2);
   color: var(--btn-colour-2);
   transform: translate(-10px, 10px);
-  transition-delay: 50ms;
+  transition-delay: 75ms;
   z-index: -2;
 }
 
@@ -83,6 +83,6 @@ body {
   border: 4px solid var(--btn-colour-3);
   color: var(--btn-colour-3);
   transform: translate(-15px, 15px);
-  transition-delay: 75ms;
+  transition-delay: 125ms;
   z-index: -3;
 }
