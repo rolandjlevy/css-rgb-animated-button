@@ -12,5 +12,4 @@
 - https://monokai.nl/
 
 > 3D title and good font
-
 - https://codlipa.vercel.app/

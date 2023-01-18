@@ -1,6 +1,6 @@
-# CSS - animated RGB buttons
+# Animated RGB buttons in CSS
 
-> Combining `mix-blend-mode` and `transition` to create this colourful, animated effect
+> Combining the CSS `mix-blend-mode` and `transition` to create this animated effect using pure CSS
 
 - [Live demo](https://css-rgb-animated-button.rolandjlevy.repl.co/)
 - [Source code](https://replit.com/@RolandJLevy/css-rgb-animated-button)
